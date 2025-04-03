@@ -1,0 +1,13 @@
+body{
+    background: #fafaf8;
+    font-weight: 400;
+    font-size: 18px;
+    color: #475467;
+    overflow-x: hidden;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}

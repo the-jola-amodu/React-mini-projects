@@ -1,0 +1,20 @@
+.dice{
+    width: 45px;
+    height: 45px;
+    background: #ffffff;
+    box-shadow: 0px 2px 2px 0px #00000026;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 21px;
+    border: 0;
+}
+
+.good{
+    background: #59e391;
+}
+
+.lost{
+    cursor: not-allowed;
+    background-color:  #FF5733;
+}

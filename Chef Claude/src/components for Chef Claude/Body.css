@@ -1,0 +1,28 @@
+.add-ingredient-form{
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+}
+
+.add-ingredient-input{
+    width: 400px;
+    height: 38px;
+    border-radius: 6px;
+    border: 1px solid #d1d5d8;
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
+    padding: 0 20px 0;
+}
+
+.add-ingredient-button{
+    font-family: "Inter", sans-serif;
+    background: #141413;
+    height: 38px;
+    width: 183px;
+    border-radius: 6px;
+    padding: 6px 17px 9px 17px;
+    color: whitesmoke;
+}
+
+main{
+    padding: 80px 105px 10px;
+}

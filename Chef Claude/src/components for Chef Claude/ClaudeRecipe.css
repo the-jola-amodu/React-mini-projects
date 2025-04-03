@@ -1,0 +1,15 @@
+#recipe {
+    margin-top: 10px;
+    margin-bottom: 110px;
+    color: #475467;
+    line-height: 28px;
+    font-size: 1.125rem;
+    font-weight: 400;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+#recipe ul li, #recipe ol li {
+    margin-bottom: 8px;
+}

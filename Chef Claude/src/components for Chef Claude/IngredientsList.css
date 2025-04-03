@@ -1,0 +1,76 @@
+#ingredients{
+    display: flex;
+    flex-direction: column;
+}
+
+.ingredients-heading{
+    margin: 40px 50px 20px;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 38px;
+    color: #141413;
+}
+
+.ingredients-list{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 75px;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 28px;
+    color: #475467;
+    margin: 35px 20px;
+}
+
+.get-recipe-div{
+    width: 565px;
+    height: 109px;
+    background: #f0efeb;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    padding: 28px 42px;
+    gap: 50px;
+    align-self: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.get-recipe-button{
+    background: #d17557;
+    color: #fafaf8;
+    padding: 9px 17px;
+    font-weight: 500;
+    font-size: 14px;
+    border-radius: 6px;
+}
+
+.get-recipe-text h3{
+    font-weight: 500;
+    line-height: 24px;
+    margin-bottom: 8px;
+    color: #141413;
+}
+
+.get-recipe-text p{
+    font-size: 14px;
+}
+
+.more-ingredients{
+    background: #dadad7;
+    border-radius: 35px;
+    padding: 6px 20px 6px 10px;
+    align-self: center;
+    gap: 3px;
+    display: flex;
+    align-items: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 70px;
+    margin-bottom: 210px;
+}
+
+.more{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
