@@ -1,4 +1,5 @@
 import './IngredientsList.css'
+import infoicon from '../assets/info.png'
 
 export default function IngredientsList(props){
     const ingredientElements = props.ingredients.map((ingredient) => {
@@ -25,7 +26,7 @@ export default function IngredientsList(props){
     }
     else{
         recipeDiv = <div className='more-ingredients'>
-        <img src="src/assets/info.png" alt="info icon from flat icons" width={16} height={16}/>
+        <img src={infoicon} alt="info icon from flat icons" width={16} height={16}/>
         Enter the ingredients you have to begin!
     </div>
 
