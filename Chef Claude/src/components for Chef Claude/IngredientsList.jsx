@@ -2,8 +2,18 @@ import './IngredientsList.css'
 import infoicon from '../assets/info.png'
 
 export default function IngredientsList(props){
-    const ingredientElements = props.ingredients.map((ingredient) => {
-        return <li key='ingredient'>{ingredient}</li>
+    const ingredientElements = props.ingredients.map((ingredient, index) => {
+        return (
+            <div key={index} className="ingredient-item">
+                <span>{ingredient}</span>
+                <button 
+                    className="delete-ingredient"
+                    onClick={() => props.onDeleteIngredient(index)}
+                >
+                    ×
+                </button>
+            </div>
+        )
     })
 
     const readyForRecipeDiv = <div ref={props.ref} className='get-recipe-div'>
@@ -29,13 +39,13 @@ export default function IngredientsList(props){
         <img src={infoicon} alt="info icon from flat icons" width={16} height={16}/>
         Enter the ingredients you have to begin!
     </div>
+    }
 
-}
     return <section id='ingredients'>
         {props.ingredients.length != 0 && <h1 className='ingredients-heading'>Ingredients on hand:</h1>}
-        <ul className='ingredients-list'>
+        <div className='ingredients-list'>
             {ingredientElements}
-        </ul>
+        </div>
         {recipeDiv}
     </section>
 }
