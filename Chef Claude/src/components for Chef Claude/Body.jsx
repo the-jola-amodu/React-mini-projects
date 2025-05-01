@@ -7,7 +7,7 @@ import { TrophySpin } from 'react-loading-indicators'
 
 export default function Main(){
 
-    const [ingredients, setIngredients] = useState(["rice", "beans", "tomatoes", "spices"])
+    const [ingredients, setIngredients] = useState([])
     const [recipe, setRecipe] = useState('')
     const [buttonClicked, setButtonClicked] = useState(false)
 
