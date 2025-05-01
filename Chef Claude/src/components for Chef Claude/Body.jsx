@@ -43,7 +43,7 @@ export default function Main(){
     var recipeDisplay = null
 
     if(recipe){
-        recipeDisplay = recipe
+        recipeDisplay = <ClaudeRecipe recipe={recipe}/>
     }
     else if(buttonClicked){
         recipeDisplay = <TrophySpin color={["#595957", "#f5d271", "#ccccca"]} size="medium" text="" textColor="" />
