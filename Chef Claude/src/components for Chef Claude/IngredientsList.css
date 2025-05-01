@@ -13,14 +13,41 @@
 
 .ingredients-list{
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     flex-wrap: wrap;
-    gap: 75px;
+    gap: 15px;
     font-weight: 400;
     font-size: 30px;
     line-height: 28px;
     color: #475467;
     margin: 35px 20px;
+}
+
+.ingredient-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background: #f0efeb;
+    padding: 8px 15px;
+    border-radius: 8px;
+    border: 1px solid #dadad7;
+}
+
+.delete-ingredient {
+    background: none;
+    border: none;
+    color: #d17557;
+    font-size: 24px;
+    cursor: pointer;
+    padding: 0 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: color 0.2s;
+}
+
+.delete-ingredient:hover {
+    color: #b35a3d;
 }
 
 .get-recipe-div{
